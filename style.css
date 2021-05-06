@@ -1,17 +1,20 @@
 body {padding: 3%;
     margin: 2%;
     align-content:space-around;
-
 }
 
-h1 {text-align:center;
+h1 {align-content:space-around;
+    text-align: center;
     padding: 1%;
     margin: 1%;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h2 {text-align: center;
     padding: 1%;
     margin: 1%;
+    color:rgb(100, 6, 6);
+    font-size: 30px;
 }
 
 
@@ -26,3 +29,18 @@ div {
     display:inline-table;
     box-sizing: border-box;
 } 
+
+.certas { 
+    font-size: 18px;
+    text-decoration: underline rgb(29, 82, 29);
+    text-transform: uppercase;
+    color: rgb(29, 82, 29);
+
+}
+
+.erradas {
+    font-size: 18px;
+    text-decoration: underline rgb(219, 19, 19);
+    text-transform: uppercase;
+    color: rgb(219, 19, 19);
+}
